@@ -1,2 +1,8 @@
 # randhn
-Open HN pages from a random past date
+
+A simple bash script that opens HN pages from a random past date.
+
+Tested on MacOS and Linux. On Mac, it uses default browser while on Linux uses Firefox.
+
+By default, it opens one page but may be given a command line argument to open more, max limit 5.
+
