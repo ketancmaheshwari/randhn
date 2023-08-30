@@ -2,9 +2,10 @@
 
 platform=$(uname -a)
 
-start_dt=1171864861
+start_dt=1171864861 # HN did not exist before this.
 end_dt=$(date +%s)
 
+# By default, opens 1 page but user can provide arg to open more
 n=1
 if [[ $# == 1 ]]; then
 	n="$1"
