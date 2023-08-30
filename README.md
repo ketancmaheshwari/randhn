@@ -9,7 +9,7 @@ By default, it opens one page but may be given a command line argument to open m
 For example:
 
 ```
-./randhn 2
+./randhn.sh 2
 ```
 will open 2 HN pages from random past dates.
 
