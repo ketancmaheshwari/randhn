@@ -9,8 +9,8 @@ end_dt=$(date +%s)
 n=1
 if [[ $# == 1 ]]; then
 	n="$1"
-	if [[ n -gt 5 ]]; then
-		n=5
+	if [[ n -gt 6 ]]; then
+		n=6
 	fi
 fi
 
